@@ -1,0 +1,79 @@
+{
+  "id": "97b6724b-b73d-4fc6-8d0c-b777de140fbd",
+  "metadata": {
+    "title": "Example - NDWI temporal analysis",
+    "description": "<h3>Background</h3><p>This example is created to present a concrete example of how the tools of the <a href=\"storm-platform.org/\">Storm ecosystem</a> can be used to create reproducible analysis.</p><p>&nbsp;</p><h3>Application</h3><p>This example presents an NDWI time series analysis generated from a CBERS-4a/AWFI data cube. This data cube was developed and maintained by the <a href=\"http://brazildatacube.org/en/home-page-2/\">Brazil Data Cube project</a>, which was created and maintained by researchers at the National Institute for Space Research (INPE).</p><p>&nbsp;</p>",
+    "subjects": [
+      "NDWI",
+      "Time series analysis",
+      "Data Cubes",
+      "Reproducibility",
+      "Brazil Data Cube"
+    ],
+    "rights": [
+      {
+        "title": "Creative Commons Attribution 4.0 International",
+        "description": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.",
+        "link": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      }
+    ],
+    "contributors": [
+      {
+        "person_or_org": {
+          "name": "Brazil Data Cube",
+          "type": "organizational"
+        }
+      },
+      {
+        "person_or_org": {
+          "name": "National Institute for Space Research",
+          "type": "organizational"
+        }
+      }
+    ],
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Carlos, Felipe",
+          "type": "personal",
+          "given_name": "Felipe",
+          "family_name": "Carlos"
+        }
+      },
+      {
+        "person_or_org": {
+          "name": "Queiroz, Gilberto",
+          "type": "personal",
+          "given_name": "Gilberto",
+          "family_name": "Queiroz"
+        }
+      }
+    ],
+    "dates": [
+      {
+        "date": "2021-12",
+        "type": {
+          "id": "created"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [5635547.812804883, 8998271.53455273],
+                [5773526.08890206, 8998271.53455273],
+                [5773526.08890206, 9099459.233292323],
+                [5635547.812804883, 9099459.233292323],
+                [5635547.812804883, 8998271.53455273]
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

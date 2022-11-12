@@ -1,0 +1,78 @@
+{
+  "id": "6f99f607-62a9-4a38-898b-1cdce21a4f17",
+  "metadata": {
+    "title": "Application - Deforestation mapping using Fraction Data Cubes and Deep learning algorithms",
+    "description": "ToDo",
+    "subjects": [
+      "LULC",
+      "Time series analysis",
+      "Data Cubes",
+      "Reproducibility",
+      "Brazil Data Cube",
+      "INPE"
+    ],
+    "rights": [
+      {
+        "title": "Creative Commons Attribution 4.0 International",
+        "description": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.",
+        "link": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      }
+    ],
+    "contributors": [
+      {
+        "person_or_org": {
+          "name": "Brazil Data Cube",
+          "type": "organizational"
+        }
+      },
+      {
+        "person_or_org": {
+          "name": "National Institute for Space Research",
+          "type": "organizational"
+        }
+      }
+    ],
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Carlos, Felipe",
+          "type": "personal",
+          "given_name": "Felipe",
+          "family_name": "Carlos"
+        }
+      },
+      {
+        "person_or_org": {
+          "name": "Queiroz, Gilberto",
+          "type": "personal",
+          "given_name": "Gilberto",
+          "family_name": "Queiroz"
+        }
+      },
+      {
+        "person_or_org": {
+          "name": "Carvalho, Felipe",
+          "type": "personal",
+          "given_name": "Felipe",
+          "family_name": "Carvalho"
+        }
+      },
+      {
+        "person_or_org": {
+          "name": "Simoes, Rolf",
+          "type": "personal",
+          "given_name": "Rolf",
+          "family_name": "Simoes"
+        }
+      }
+    ],
+    "dates": [
+      {
+        "date": "2021-11",
+        "type": {
+          "id": "created"
+        }
+      }
+    ]
+  }
+}

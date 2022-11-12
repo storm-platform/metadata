@@ -1,0 +1,55 @@
+{
+  "id": "814c1bb3-c758-40a5-999d-c6c6cf41162b",
+  "metadata": {
+    "title": "Example - Processing solar data with Deep learning techniques",
+    "description": "<h3>Background</h3><p>This example is created to present a concrete example of how the tools of the <a href=\"storm-platform.org/\">Storm ecosystem</a> can be used to create reproducible analysis.</p><p>&nbsp;</p><h3>Application</h3><p>ToDo</p><p>&nbsp;</p>",
+    "subjects": [
+      "Deep learning",
+      "Solar data",
+      "Data Cubes",
+      "Reproducibility",
+      "National Institute for Space Research"
+    ],
+    "rights": [
+      {
+        "title": "Creative Commons Attribution 4.0 International",
+        "description": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.",
+        "link": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      }
+    ],
+    "contributors": [
+      {
+        "person_or_org": {
+          "name": "National Institute for Space Research",
+          "type": "organizational"
+        }
+      },
+      {
+        "person_or_org": {
+          "name": "Carlos, Felipe",
+          "type": "personal",
+          "given_name": "Felipe",
+          "family_name": "Carlos"
+        }
+      }
+    ],
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Muralikrishna, Amita",
+          "type": "personal",
+          "given_name": "Amita",
+          "family_name": "Muralikrishna"
+        }
+      }
+    ],
+    "dates": [
+      {
+        "date": "2021-09",
+        "type": {
+          "id": "created"
+        }
+      }
+    ]
+  }
+}
