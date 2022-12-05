@@ -1,6 +1,7 @@
 {
   "title": "Example - Reproducible Fmask processing",
   "description": "<h3>Background</h3><p>The tools of the Storm ecosystem are designed to meet many different types of needs. Using these tools, researchers can process their data in a reproducible way. Also, functionalities are provided that allow researchers to develop research and collaboratively compose their results.</p><p>In this context, this example has been created to present how users can use the tools of the <a href=\"storm-platform.org/\">Storm ecosystem</a>. It shows how tools that are not directly processing scripts (e.g., command line tools) can be reproducible with the Storm ecosystem tools.</p><h3>Application</h3><p>This example presents the use of the <a href=\"https://www.pythonfmask.org/en/latest/\">Python FMask</a> tool for cloud detection in a Sentinel-2/MSI scene. The Saracá-Taquera National Forest region, located northwest of the Pará state in Brazil, was chosen as the study area.</p>",
+  "version": "v1.0.0",
   "subjects": [
     "Fmask",
     "Sentinel-2A",
@@ -57,21 +58,6 @@
       }
     }
   ],
-  "dates": [
-    {
-      "date": "2022-03",
-      "type": {
-        "id": "created"
-      }
-    }
-  ],
-  "rights": [
-    {
-      "link": "https://creativecommons.org/licenses/by/4.0/legalcode",
-      "description": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.",
-      "title": "Creative Commons Attribution 4.0 International"
-    }
-  ],
   "locations": {
     "features": [
       {
@@ -89,5 +75,20 @@
         }
       }
     ]
-  }
+  },
+  "rights": [
+    {
+      "link": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "description": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "dates": [
+    {
+      "date": "2022-03",
+      "type": {
+        "id": "created"
+      }
+    }
+  ]
 }
