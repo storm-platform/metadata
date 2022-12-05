@@ -1,6 +1,6 @@
 {
-  "description": "Reproducible Fmask using Storm workbench",
   "title": "Fmask example using Storm workbench",
+  "description": "Reproducible Fmask using Storm Workbench",
   "execution": {
     "environment": {
       "descriptor": {
