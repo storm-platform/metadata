@@ -1,0 +1,125 @@
+{
+  "graph": {
+    "directed": true,
+    "edges": [
+      {
+        "source": "r28qc-7fq77",
+        "target": "dxhec-d4223"
+      },
+      {
+        "source": "dxhec-d4223",
+        "target": "4axy7c-ca88"
+      }
+    ],
+    "nodes": {
+      "r28qc-7fq77": {
+        "metadata": {
+          "files": [
+            {
+              "type": "input",
+              "checksum": "fa4799ee7db22b7601a8d6b6cc10eb7b",
+              "key": "Makefile"
+            },
+            {
+              "type": "input",
+              "checksum": "02ad9e220950c4931922e01bc31b1e13",
+              "key": "samples-database.gpkg"
+            },
+            {
+              "type": "input",
+              "checksum": "a8f47d9bd6dc9be08a7089707203f6de",
+              "key": "workflow.toml"
+            },
+            {
+              "type": "output",
+              "checksum": "bbd873b623ae2dce57550df0f687bcb5",
+              "key": "index.csv"
+            }
+          ]
+        }
+      },
+      "dxhec-d4223": {
+        "metadata": {
+          "files": [
+            {
+              "type": "input",
+              "checksum": "d4a510dadc253d4adda7cbcbffc7ff3e",
+              "key": "02_generate-vrt.R"
+            },
+            {
+              "type": "input",
+              "checksum": "8fdc3831a49912c1fd7714b09df12875",
+              "key": "samples-database.gpkg"
+            },
+            {
+              "type": "input",
+              "checksum": "a75c203ba8cf93db3e066d54bf2ef904",
+              "key": "03_classify-fraction-cube.R"
+            },
+            {
+              "type": "input",
+              "checksum": "1931af14ca0a4fa59b01b2ef8a440fc8",
+              "key": "01_generate-image-fraction.R"
+            },
+            {
+              "type": "input",
+              "checksum": "bbd873b623ae2dce57550df0f687bcb5",
+              "key": "index.csv"
+            },
+            {
+              "type": "output",
+              "checksum": "4b9c8e42956bc733129059fd46250e92",
+              "key": "LANDSAT-8_OLI_038047_2018-08-29_2019-08-29_class_v1.tif"
+            }
+          ]
+        }
+      },
+      "axy7c-ca884": {
+        "metadata": {
+          "files": [
+            {
+              "type": "input",
+              "checksum": "8cc79a137bbd31c179cfc61cc485e3bd",
+              "key": "workflow.toml"
+            },
+            {
+              "type": "input",
+              "checksum": "4b9c8e42956bc733129059fd46250e92",
+              "key": "LANDSAT-8_OLI_038047_2018-08-29_2019-08-29_class_v1.tif"
+            },
+            {
+              "type": "input",
+              "checksum": "fd365f6673bb5b23aac2f55fdde6dd11",
+              "key": "validation-samples.csv"
+            },
+            {
+              "type": "input",
+              "checksum": "0ab7b4fe0c97a85a4dc13d4ebcf9db88",
+              "key": "Makefile"
+            },
+            {
+              "type": "output",
+              "checksum": "fd365f6673bb5b23aac2f55fdde6dd11",
+              "key": "validation-samples.csv"
+            },
+            {
+              "type": "output",
+              "checksum": "14f376cd90059fdea204dd4825ba2f12",
+              "key": "metrics.json"
+            },
+            {
+              "type": "output",
+              "checksum": "fd365f6673bb5b23aac2f55fdde6dd11",
+              "key": "validation-samples.csv"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "metadata": {
+    "version": "v1.0.0",
+    "description": "This is an example of how the Research Workflow is modeled as a JSON document.",
+    "title": "Deforestation mapping using Fraction Data Cubes and Machine learning algorithms"
+  }
+}
