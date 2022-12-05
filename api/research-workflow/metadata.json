@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "title": "Deforestation mapping using Fraction Data Cubes and Machine learning algorithms",
+    "description": "This is an example of how the Research Workflow is modeled as a JSON document.",
+    "version": "v1.0.0"  
+  },
   "graph": {
     "directed": true,
     "edges": [
@@ -116,10 +121,5 @@
         }
       }
     }
-  },
-  "metadata": {
-    "version": "v1.0.0",
-    "description": "This is an example of how the Research Workflow is modeled as a JSON document.",
-    "title": "Deforestation mapping using Fraction Data Cubes and Machine learning algorithms"
   }
 }
