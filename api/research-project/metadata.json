@@ -1,0 +1,93 @@
+{
+  "title": "Example - Reproducible Fmask processing",
+  "description": "<h3>Background</h3><p>The tools of the Storm ecosystem are designed to meet many different types of needs. Using these tools, researchers can process their data in a reproducible way. Also, functionalities are provided that allow researchers to develop research and collaboratively compose their results.</p><p>In this context, this example has been created to present how users can use the tools of the <a href=\"storm-platform.org/\">Storm ecosystem</a>. It shows how tools that are not directly processing scripts (e.g., command line tools) can be reproducible with the Storm ecosystem tools.</p><h3>Application</h3><p>This example presents the use of the <a href=\"https://www.pythonfmask.org/en/latest/\">Python FMask</a> tool for cloud detection in a Sentinel-2/MSI scene. The Saracá-Taquera National Forest region, located northwest of the Pará state in Brazil, was chosen as the study area.</p>",
+  "subjects": [
+    "Fmask",
+    "Sentinel-2A",
+    "Cloud detection",
+    "Reproducibility",
+    "Brazil Data Cube",
+    "Satellite data"
+  ],
+  "creators": [
+    {
+      "person_or_org": {
+        "given_name": "Felipe",
+        "name": "Carlos, Felipe",
+        "family_name": "Carlos",
+        "type": "personal"
+      }
+    },
+    {
+      "person_or_org": {
+        "given_name": "Gilberto",
+        "name": "Queiroz, Gilberto",
+        "family_name": "Queiroz",
+        "type": "personal"
+      }
+    },
+    {
+      "person_or_org": {
+        "given_name": "Rogério",
+        "name": "Flores, Rogério",
+        "family_name": "Flores",
+        "type": "personal"
+      }
+    },
+    {
+      "person_or_org": {
+        "given_name": "Felipe",
+        "name": "Carvalho, Felipe",
+        "family_name": "Carvalho",
+        "type": "personal"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "person_or_org": {
+        "name": "Brazil Data Cube",
+        "type": "organizational"
+      }
+    },
+    {
+      "person_or_org": {
+        "name": "National Institute for Space Research",
+        "type": "organizational"
+      }
+    }
+  ],
+  "dates": [
+    {
+      "date": "2022-03",
+      "type": {
+        "id": "created"
+      }
+    }
+  ],
+  "rights": [
+    {
+      "link": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "description": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "locations": {
+    "features": [
+      {
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [-57.00017983292712, -1.897757553561825],
+              [-56.0129462718968, -1.897474262530075],
+              [-56.01336187375581, -0.90423375833166],
+              [-57.00017975719296, -0.904368722908283],
+              [-57.00017983292712, -1.897757553561825]
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}
