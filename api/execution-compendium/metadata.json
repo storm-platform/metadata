@@ -1,0 +1,81 @@
+{
+  "description": "Reproducible Fmask using Storm workbench",
+  "title": "Fmask example using Storm workbench",
+  "execution": {
+    "environment": {
+      "descriptor": {
+        "version": "0.1.0",
+        "name": "Storm Core",
+        "uri": "https://github.com/storm-platform/storm-core"
+      },
+      "meta": {
+        "files": {
+          "key": "pack.rpz"
+        }
+      }
+    },
+    "data": {
+      "inputs": [
+        {
+          "key": "T21MWU_20221110T140711_B12.jp2"
+        },
+        {
+          "key": "T21MWU_20221110T140711_B8A.jp2"
+        },
+        {
+          "key": "T21MWU_20221110T140711_B02.jp2"
+        },
+        {
+          "key": "T21MWU_20221110T140711_B04.jp2"
+        },
+        {
+          "key": "T21MWU_20221110T140711_B05.jp2"
+        },
+        {
+          "key": "run.sh"
+        },
+        {
+          "key": "MTD_TL.xml"
+        },
+        {
+          "key": "T21MWU_20221110T140711_B08.jp2"
+        },
+        {
+          "key": "MTD_MSIL1C.xml"
+        },
+        {
+          "key": "T21MWU_20221110T140711_B06.jp2"
+        },
+        {
+          "key": "T21MWU_20221110T140711_B07.jp2"
+        },
+        {
+          "key": "T21MWU_20221110T140711_B01.jp2"
+        },
+        {
+          "key": "T21MWU_20221110T140711_B10.jp2"
+        },
+        {
+          "key": "T21MWU_20221110T140711_B09.jp2"
+        },
+        {
+          "key": "T21MWU_20221110T140711_B03.jp2"
+        },
+        {
+          "key": "T21MWU_20221110T140711_B11.jp2"
+        }
+      ],
+      "outputs": [
+        {
+          "key": "angles_tmp_645gpu51.img.aux.xml"
+        },
+        {
+          "key": "S2A_MSIL1C_20221110T140711_N0400_R110_T21MWU_20221110T155128_FMASK.tif"
+        },
+        {
+          "key": "S2A_MSIL1C_20221110T140711_N0400_R110_T21MWU_20221110T155128_FMASK.tif.aux.xml"
+        }
+      ]
+    }
+  }
+}
