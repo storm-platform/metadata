@@ -11,7 +11,7 @@ SpatioTemporal Open Research Manager - Projects metadata
 ========================================================
 
 .. image:: https://img.shields.io/badge/license-MIT-green
-        :target: https://github.com/storm-platform/storm-ws-spec/blob/master/LICENSE
+        :target: https://github.com/storm-platform/metadata/blob/master/LICENSE
         :alt: Software License
 
 .. image:: https://img.shields.io/badge/lifecycle-maturing-blue.svg
